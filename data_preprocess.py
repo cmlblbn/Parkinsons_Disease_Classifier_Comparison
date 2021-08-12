@@ -38,7 +38,7 @@ def preprocess():
 
     """# Yeni Bölüm"""
 
-    sns.heatmap(df.corr());
+    sns.heatmap(df.corr())
     plt.show()
 
     # data üzerinde korrelasyon spread1,spread2 ve ppe featureslerinde yoğunlukta headmap üzerinden görebiliriz.
